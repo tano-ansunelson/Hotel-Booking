@@ -238,6 +238,7 @@
             btnGuests.Text = "♙ Guests";
             btnGuests.TextAlign = ContentAlignment.MiddleLeft;
             btnGuests.UseVisualStyleBackColor = false;
+            btnGuests.Click += btnGuests_Click;
             // 
             // btnRooms
             // 

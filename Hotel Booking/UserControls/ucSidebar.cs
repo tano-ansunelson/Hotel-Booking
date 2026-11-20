@@ -10,9 +10,27 @@ namespace Hotel_Booking
 {
     public partial class ucSidebar : UserControl
     {
+        public event Action<string> NavigationRequested;
         public ucSidebar()
         {
             InitializeComponent();
+            btnDashboard.Click += (s, e) =>
+                NavigationRequested?.Invoke("Dashboard");
+
+            btnBookings.Click += (s, e) =>
+               NavigationRequested?.Invoke("Bookings");
+            btnNewBooking.Click += (s, e) =>
+               NavigationRequested?.Invoke("NewBooking");
+            btnCheckInOut.Click += (s, e) =>
+               NavigationRequested?.Invoke("CheckInOut");
+            btnGuests.Click += (s, e) =>
+               NavigationRequested?.Invoke("Guests");
+            btnReports.Click += (s, e) =>
+               NavigationRequested?.Invoke("Reports");
+            btnRooms.Click += (s, e) =>
+               NavigationRequested?.Invoke("Rooms");
+            btnPayments.Click += (s, e) =>
+               NavigationRequested?.Invoke("Payments");
         }
 
         public void SetActivePage(string page)
@@ -66,6 +84,11 @@ namespace Hotel_Booking
         }
 
         private void btnCheckInOut_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGuests_Click(object sender, EventArgs e)
         {
 
         }
