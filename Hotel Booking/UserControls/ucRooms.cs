@@ -13,6 +13,12 @@ namespace Hotel_Booking.UserControls
         public ucRooms()
         {
             InitializeComponent();
+            this.Dock = DockStyle.Fill;
+        }
+
+        private void ucRooms_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

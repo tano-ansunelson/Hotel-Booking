@@ -12,6 +12,7 @@ namespace Hotel_Booking
     {
         public frmLogin()
         {
+            this.Dock = DockStyle.Fill;
             InitializeComponent();
             AcceptButton = btnSignIn;
             lbError.Visible = false;
