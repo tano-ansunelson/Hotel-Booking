@@ -136,6 +136,7 @@
             tlpBookingMain.Controls.Add(pnlBookingHeader, 0, 0);
             tlpBookingMain.Controls.Add(pnlSearchFilters, 0, 1);
             tlpBookingMain.Controls.Add(tlpBookingBody, 0, 2);
+            tlpBookingMain.Cursor = Cursors.Hand;
             tlpBookingMain.Dock = DockStyle.Fill;
             tlpBookingMain.GrowStyle = TableLayoutPanelGrowStyle.FixedSize;
             tlpBookingMain.Location = new Point(0, 0);
@@ -385,6 +386,7 @@
             dtpCheckOut.Name = "dtpCheckOut";
             dtpCheckOut.Size = new Size(145, 27);
             dtpCheckOut.TabIndex = 1;
+            dtpCheckOut.ValueChanged += dtpCheckOut_ValueChanged;
             // 
             // lblCheckOut
             // 
@@ -470,6 +472,7 @@
             btnSearchRooms.TabIndex = 4;
             btnSearchRooms.Text = "Search Rooms";
             btnSearchRooms.UseVisualStyleBackColor = false;
+            btnSearchRooms.Click += btnSearchRooms_Click;
             // 
             // lblNightsCount
             // 

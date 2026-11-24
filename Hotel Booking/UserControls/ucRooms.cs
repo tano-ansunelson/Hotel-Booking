@@ -20,5 +20,35 @@ namespace Hotel_Booking.UserControls
         {
 
         }
+
+        private void btnFilterCleaning_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tlpRoomCardGrid_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel9_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbFloor_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbRoomStatus_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

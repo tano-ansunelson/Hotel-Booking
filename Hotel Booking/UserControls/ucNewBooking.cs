@@ -113,12 +113,15 @@ public partial class ucNewBooking : UserControl
         dgvAvailableRooms.ColumnHeadersHeight = 38;
     }
 
+    private void dtpCheckOut_ValueChanged(object sender, EventArgs e)
+    {
 
+    }
 
+    private void btnSearchRooms_Click(object sender, EventArgs e)
+    {
 
-
-
-
+    }
 }
 
 

@@ -13,6 +13,17 @@ namespace Hotel_Booking.UserControls
         public ucBookings()
         {
             InitializeComponent();
+            this.Dock = DockStyle.Fill;
+        }
+
+        private void ucBookings_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

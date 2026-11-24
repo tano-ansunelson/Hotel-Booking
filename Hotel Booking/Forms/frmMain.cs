@@ -23,6 +23,7 @@ namespace Hotel_Booking
             pnlContent.Controls.Clear();
             page.Dock = DockStyle.Fill;
             pnlContent.Controls.Add(page);
+            page.BringToFront();
         }
 
         private void Sidebar_NavigationRequested(string page)
@@ -71,6 +72,11 @@ namespace Hotel_Booking
         }
 
         private void tlpMain_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pnlContent_Paint(object sender, PaintEventArgs e)
         {
 
         }
