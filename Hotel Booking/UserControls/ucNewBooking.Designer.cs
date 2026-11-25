@@ -1137,11 +1137,6 @@
         private Label lblAvailableRoomsTitle;
         private Label lblAvailableRoomsCount;
         private DataGridView dgvAvailableRooms;
-        private DataGridViewTextBoxColumn colRoomNumber;
-        private DataGridViewTextBoxColumn colRoomType;
-        private DataGridViewTextBoxColumn colBeds;
-        private DataGridViewTextBoxColumn colRate;
-        private DataGridViewButtonColumn colSelectRoom;
         private Panel pnlBookingSummary;
         private TableLayoutPanel tlpPriceBreakdown;
         private Label lblBookingSummaryTitle;
@@ -1170,5 +1165,10 @@
         private TableLayoutPanel tableLayoutPanel5;
         private Button btnConfirmBooking;
         private Button btnCancelBooking;
+        private DataGridViewTextBoxColumn colRoomNumber;
+        private DataGridViewTextBoxColumn colRoomType;
+        private DataGridViewTextBoxColumn colBeds;
+        private DataGridViewTextBoxColumn colRate;
+        private DataGridViewButtonColumn colSelectRoom;
     }
 }
