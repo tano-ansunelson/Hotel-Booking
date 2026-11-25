@@ -13,6 +13,12 @@ namespace Hotel_Booking.UserControls
         public ucPayments()
         {
             InitializeComponent();
+            this.Dock = DockStyle.Fill;
+        }
+
+        private void ucPayments_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

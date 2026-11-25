@@ -535,13 +535,13 @@
             tlpCheckInDetails.Location = new Point(24, 18);
             tlpCheckInDetails.Margin = new Padding(0);
             tlpCheckInDetails.Name = "tlpCheckInDetails";
-            tlpCheckInDetails.RowCount = 6;
+            tlpCheckInDetails.RowCount = 5;
             tlpCheckInDetails.RowStyles.Add(new RowStyle(SizeType.Absolute, 65F));
             tlpCheckInDetails.RowStyles.Add(new RowStyle(SizeType.Absolute, 85F));
             tlpCheckInDetails.RowStyles.Add(new RowStyle(SizeType.Absolute, 145F));
             tlpCheckInDetails.RowStyles.Add(new RowStyle(SizeType.Absolute, 90F));
             tlpCheckInDetails.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tlpCheckInDetails.RowStyles.Add(new RowStyle(SizeType.Absolute, 55F));
+            tlpCheckInDetails.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tlpCheckInDetails.Size = new Size(639, 523);
             tlpCheckInDetails.TabIndex = 0;
             // 
@@ -994,7 +994,7 @@
             tlpCheckInActions.Name = "tlpCheckInActions";
             tlpCheckInActions.RowCount = 1;
             tlpCheckInActions.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tlpCheckInActions.Size = new Size(639, 83);
+            tlpCheckInActions.Size = new Size(639, 138);
             tlpCheckInActions.TabIndex = 4;
             // 
             // btnCompleteCheckIn
@@ -1007,7 +1007,7 @@
             btnCompleteCheckIn.ForeColor = Color.White;
             btnCompleteCheckIn.Location = new Point(3, 3);
             btnCompleteCheckIn.Name = "btnCompleteCheckIn";
-            btnCompleteCheckIn.Size = new Size(409, 77);
+            btnCompleteCheckIn.Size = new Size(409, 132);
             btnCompleteCheckIn.TabIndex = 0;
             btnCompleteCheckIn.Text = "Complete Check-in";
             btnCompleteCheckIn.UseVisualStyleBackColor = false;
@@ -1022,7 +1022,7 @@
             btnPrintRegistration.Location = new Point(415, 3);
             btnPrintRegistration.Margin = new Padding(0, 3, 0, 3);
             btnPrintRegistration.Name = "btnPrintRegistration";
-            btnPrintRegistration.Size = new Size(224, 77);
+            btnPrintRegistration.Size = new Size(224, 132);
             btnPrintRegistration.TabIndex = 1;
             btnPrintRegistration.Text = "Print Registration";
             btnPrintRegistration.UseVisualStyleBackColor = true;
